@@ -68,5 +68,5 @@ gem "auto_html"
 
 gem 'kgio', '<= 2.9.2'
 gem 'mina', '<= 0.3.1'
-gem 'mina-sidekiq', '<= 0.3.0'
-gem 'mina-unicorn', '<= 0.0.3'
+gem 'mina-sidekiq', '<= 0.3.0', :require => false
+gem 'mina-unicorn', '<= 0.0.3', :require => false
