@@ -65,3 +65,8 @@ gem 'devise'
 
 #Add the Auto HTML so user can link in direct from website and youtube 
 gem "auto_html"
+
+
+gem 'mina'
+gem 'mina-sidekiq', :require => false
+gem 'mina-unicorn', :require => false
