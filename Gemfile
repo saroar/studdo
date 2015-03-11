@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -66,7 +66,7 @@ gem 'devise'
 #Add the Auto HTML so user can link in direct from website and youtube 
 gem "auto_html"
 
-
-gem 'mina'
-gem 'mina-sidekiq', :require => false
-gem 'mina-unicorn', :require => false
+gem 'kgio', '<= 2.9.2'
+gem 'mina', '<= 0.3.1'
+gem 'mina-sidekiq', '<= 0.3.0'
+gem 'mina-unicorn', '<= 0.0.3'
