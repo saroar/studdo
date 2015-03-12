@@ -46,8 +46,9 @@ group :development, :test do
 end
 
 group :production do
-  gem 'rails_12factor'
   gem 'pg'
+  gem 'sidekiq'
+  gem 'unicorn'
   
 end
 
@@ -67,6 +68,6 @@ gem 'devise'
 gem "auto_html"
 
 
-gem 'mina', '<= 0.3.1'
-gem 'mina-sidekiq', '<= 0.3.0', :require => false
-gem 'mina-unicorn', '<= 0.0.3', :require => false
+gem 'mina'
+gem 'mina-sidekiq', :require => false
+gem 'mina-unicorn', :require => false
