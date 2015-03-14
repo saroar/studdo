@@ -76,7 +76,6 @@ task :deploy => :environment do
     invoke :'rails:assets_precompile'
 
     to :launch do
-      invoke :'unicorn:start'
       invoke :'sidekiq:restart'
       invoke :'unicorn:restart'
     end
