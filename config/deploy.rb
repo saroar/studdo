@@ -11,14 +11,14 @@ require 'mina/unicorn'
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :rails_env, 'production' 
-set :domain, '128.199.89.196'
-set :deploy_to, '/home/sumon/www/youngrussian.ru'
+set :rails_env, 'production'
+set :domain, '188.166.120.243'
+set :deploy_to, '/home/alif/www/todolist'
 set :repository, 'https://github.com/saroar/studdo.git'
 set :branch, 'master'
-set :user, 'sumon'
+set :user, 'alif'
 set :forward_agent, true
-set :port, '7864'
+set :port, '22'
 set :unicorn_pid, "#{deploy_to}/shared/pids/unicorn.pid"
 
 # For system-wide RVM install.
