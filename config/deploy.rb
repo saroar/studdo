@@ -5,6 +5,7 @@ require 'mina/rbenv'
 require 'mina_sidekiq/tasks'
 require 'mina/unicorn'
 
+
 # Basic settings:
 #   domain       - The hostname to SSH to.
 #   deploy_to    - Path to deploy into.
@@ -12,7 +13,7 @@ require 'mina/unicorn'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :rails_env, 'production'
-set :domain, '188.166.120.243'
+set :domain, '46.101.180.222'
 set :deploy_to, '/home/alif/www/todolist'
 set :repository, 'https://github.com/saroar/studdo.git'
 set :branch, 'master'
