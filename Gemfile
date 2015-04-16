@@ -25,8 +25,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-# Use Unicorn as the app server
-gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -49,22 +47,21 @@ group :production do
   gem 'pg'
   gem 'sidekiq'
   gem 'unicorn'
-  
 end
 
-# This is link for install Bootstrap-rails version 
+# This is link for install Bootstrap-rails version
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Add the gem for awesome font
 gem "font-awesome-rails"
 
-# Add simple form 
+# Add simple form
 gem 'simple_form'
 
-# 
+#
 gem 'devise'
 
-#Add the Auto HTML so user can link in direct from website and youtube 
+#Add the Auto HTML so user can link in direct from website and youtube
 gem "auto_html"
 
 
