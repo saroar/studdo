@@ -47,6 +47,7 @@ group :production do
   gem 'pg'
   gem 'sidekiq'
   gem 'unicorn'
+  gem 'rails_12factor'
 end
 
 # This is link for install Bootstrap-rails version
