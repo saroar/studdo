@@ -50,7 +50,8 @@ group :production do
 end
 
 # This is link for install Bootstrap-rails version
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails', '~> 3.2.0'
 
 # Add the gem for awesome font
 gem "font-awesome-rails"
@@ -68,3 +69,6 @@ gem "auto_html"
 gem 'mina'
 gem 'mina-sidekiq', :require => false
 gem 'mina-unicorn', :require => false
+
+
+#hello
